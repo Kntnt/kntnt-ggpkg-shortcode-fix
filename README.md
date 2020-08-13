@@ -4,11 +4,11 @@ WordPress mu-plugin that removes empty lines from the JavaScript outputted by th
 
 ## Background
 
-The WordPress [plugin](https://wordpress.org/plugins/garden-gnome-package/) for publish Garden Gnome Packages provides the shortcode `ggpkg` to present Pano2VR and Object2VR packages on pages and posts.
+The WordPress [plugin](https://wordpress.org/plugins/garden-gnome-package/) for publishing Garden Gnome Packages provides the shortcode `ggpkg` to present Pano2VR and Object2VR packages on pages and posts.
 
-The plugin outputs JavaScript code which migh conatin empty lines. These lines will be converted into <p></p> by WordPress (its done by the infamous `wpautop()` function). That results in syntax error in yje JavaScript.
+The plugin's shortcode outputs JavaScript code which might contain empty lines. These lines will be converted into <p></p> by WordPress (its done by the infamous `wpautop()` function). That results in a syntax error in the JavaScript.
 
-Awaiting a bug fix from Garden Gnome Software, you can use this plugin as a fix. It simply removes the empty lines before outputting te JavaScript.
+Awaiting a bug fix from Garden Gnome Software, you can use this plugin as a fix. It merely removes the empty lines before outputting te JavaScript.
 
 ## How to install
 
