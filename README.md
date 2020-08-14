@@ -8,7 +8,7 @@ The WordPress [plugin](https://wordpress.org/plugins/garden-gnome-package/) for 
 
 The plugin's shortcode outputs JavaScript code which might contain empty lines. These lines will be converted into `<p></p>` by WordPress' infamous `wpautop()` function. That results in a syntax error in the JavaScript.
 
-Awaiting a bug fix from Garden Gnome Software, you can use this plugin as a fix. It merely removes the empty lines before outputting te JavaScript.
+Awaiting a [bug fix](https://wordpress.org/support/topic/bug-wpautop-mess-with-the-javascript-outputted-by-ggpkg/) from Garden Gnome Software, you can use this plugin as a fix. It merely removes the empty lines before outputting te JavaScript.
 
 ## How to install
 
